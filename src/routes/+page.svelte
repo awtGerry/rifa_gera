@@ -7,14 +7,12 @@
 <main class="text-slate-800 h-screen overflow-y-auto bg-red-500">
   <div class="snowflakes" aria-hidden="true">
     <div class="snowflake">❅</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
     <div class="snowflake">❄</div>
     <div class="snowflake">❅</div>
     <div class="snowflake">❆</div>
     <div class="snowflake">❄</div>
-    <div class="snowflake">❅</div>
     <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
     <div class="snowflake">❄</div>
   </div>
 
