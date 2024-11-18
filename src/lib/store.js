@@ -32,7 +32,7 @@ export const numbers = writable([
   { number: 26, selected: 1, name: 'Adriana' , showPerson: false },
   { number: 27, selected: 1, name: 'Fernando' , showPerson: false },
   { number: 28, selected: 1, name: 'Irma' , showPerson: false },
-  { number: 29, selected: 0, name: '' , showPerson: false },
+  { number: 29, selected: 1, name: 'Ana' , showPerson: false },
   { number: 30, selected: 1, name: 'Vero Torres' , showPerson: false },
   { number: 31, selected: 1, name: 'Brenda Reynoso' , showPerson: false },
   { number: 32, selected: 1, name: 'Adriana' , showPerson: false },
