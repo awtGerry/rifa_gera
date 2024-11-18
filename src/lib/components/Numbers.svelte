@@ -49,31 +49,31 @@
     const url = `https://wa.me/${phone}?text=${encodedMessage}`;
     window.open(url, '_blank'); // Open in a new tab
   }
-
 </script>
 
-<section class="mb-16">
-  <h2 class="text-2xl font-bold text-lime-700 flex justify-center mt-8">
+<section class="mb-16 px-4 sm:px-8">
+  <h2 class="text-2xl font-bold text-lime-700 text-center mt-8">
     Numeros disponibles
   </h2>
+
   <!-- Colors information -->
-  <div class="flex justify-center space-x-4 mt-4">
+  <div class="flex flex-wrap justify-center space-x-4 mt-4 text-center">
     <div class="flex items-center">
-      <div class="h-4 w-4 rounded-md border-2 border-lime-700 bg-lime-700"></div>
+      <div class="h-4 w-4 rounded-sm bg-lime-700"></div>
       <p class="text-slate-800 ml-1">Numero disponible</p>
     </div>
     <div class="flex items-center">
-      <div class="h-4 w-4 rounded-md border-2 bg-red-500"></div>
+      <div class="h-4 w-4 rounded-sm bg-red-500"></div>
       <p class="text-slate-800 ml-1">Numero no disponible</p>
     </div>
     <div class="flex items-center">
-      <div class="h-4 w-4 rounded-md border-2 bg-blue-500"></div>
+      <div class="h-4 w-4 rounded-sm bg-blue-500"></div>
       <p class="text-slate-800 ml-1">Numero seleccionado</p>
     </div>
   </div>
 
   <div class="flex justify-center space-x-4 mt-4 mb-4">
-    <div class="grid grid-cols-5 gap-1">
+    <div class="grid grid-cols-5 gap-1 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8">
       {#each $numbers as number}
         <button class="flex items-center justify-center h-12 w-12
           border-2 border-lime-700 text-xs font-bold cursor-pointer text-white"
