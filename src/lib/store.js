@@ -5,7 +5,7 @@ import { writable } from 'svelte/store';
 
 export const numbers = writable([
   { number: 1, selected: 1, name: 'Adriana', showPerson: false },
-  { number: 2, selected: 0, name: '', showPerson: false },
+  { number: 2, selected: 1, name: 'Ravel', showPerson: false },
   { number: 3, selected: 1, name: 'Montse' , showPerson: false },
   { number: 4, selected: 0, name: '' , showPerson: false },
   { number: 5, selected: 1, name: 'Cecy' , showPerson: false },
@@ -37,7 +37,7 @@ export const numbers = writable([
   { number: 31, selected: 1, name: 'Brenda Reynoso' , showPerson: false },
   { number: 32, selected: 1, name: 'Adriana' , showPerson: false },
   { number: 33, selected: 0, name: '' , showPerson: false },
-  { number: 34, selected: 0, name: '' , showPerson: false },
+  { number: 34, selected: 0, name: 'Nelly' , showPerson: false },
   { number: 35, selected: 1, name: 'Maria del Carmen Plascencia de Anda' , showPerson: false },
   { number: 36, selected: 1, name: 'Miguel' , showPerson: false },
   { number: 37, selected: 1, name: 'Elena' , showPerson: false },
