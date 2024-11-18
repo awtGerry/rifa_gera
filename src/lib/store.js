@@ -13,7 +13,7 @@ export const numbers = writable([
   { number: 7, selected: 1, name: 'Montse' , showPerson: false },
   { number: 8, selected: 0, name: '' , showPerson: false },
   { number: 9, selected: 1, name: 'Montse' , showPerson: false },
-  { number: 10, selected: 0, name: '' , showPerson: false },
+  { number: 10, selected: 1, name: 'Maria del Carmen Lopez Uribe' , showPerson: false },
   { number: 11, selected: 1, name: 'Coco' , showPerson: false },
   { number: 12, selected: 1, name: 'Laura' , showPerson: false },
   { number: 13, selected: 1, name: 'Coco' , showPerson: false },
@@ -53,5 +53,5 @@ export const numbers = writable([
   { number: 47, selected: 1, name: 'Bety H.' , showPerson: false },
   { number: 48, selected: 0, name: '' , showPerson: false },
   { number: 49, selected: 1, name: 'Edith' , showPerson: false },
-  { number: 50, selected: 0, name: '' , showPerson: false },
+  { number: 50, selected: 1, name: 'Maria del Carmen Lopez Uribe' , showPerson: false },
 ]);
