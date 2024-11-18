@@ -7,7 +7,7 @@ export const numbers = writable([
   { number: 1, selected: 1, name: 'Adriana', showPerson: false },
   { number: 2, selected: 1, name: 'Ravel', showPerson: false },
   { number: 3, selected: 1, name: 'Montse' , showPerson: false },
-  { number: 4, selected: 4, name: 'Adua' , showPerson: false },
+  { number: 4, selected: 1, name: 'Adua' , showPerson: false },
   { number: 5, selected: 1, name: 'Cecy' , showPerson: false },
   { number: 6, selected: 1, name: 'Moises' , showPerson: false },
   { number: 7, selected: 1, name: 'Montse' , showPerson: false },
