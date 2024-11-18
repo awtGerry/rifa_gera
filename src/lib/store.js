@@ -51,7 +51,7 @@ export const numbers = writable([
   { number: 45, selected: 1, name: 'CESAR MORALES MARTINEZ' , showPerson: false },
   { number: 46, selected: 0, name: '' , showPerson: false },
   { number: 47, selected: 1, name: 'Bety H.' , showPerson: false },
-  { number: 48, selected: 0, name: '' , showPerson: false },
+  { number: 48, selected: 1, name: 'Claudia Herrera' , showPerson: false },
   { number: 49, selected: 1, name: 'Edith' , showPerson: false },
   { number: 50, selected: 1, name: 'Maria del Carmen Lopez Uribe' , showPerson: false },
 ]);
