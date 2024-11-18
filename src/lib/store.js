@@ -1,5 +1,5 @@
 // Numbers store para la rifa
-// 1-50 números
+// 1-60 números
 
 import { writable } from 'svelte/store';
 
@@ -43,15 +43,26 @@ export const numbers = writable([
   { number: 37, selected: 1, name: 'Elena' , showPerson: false },
   { number: 38, selected: 1, name: 'Maria del Carmen Plascencia de Anda' , showPerson: false },
   { number: 39, selected: 1, name: 'Fernando' , showPerson: false },
-  { number: 40, selected: 0, name: '' , showPerson: false },
+  { number: 40, selected: 1, name: 'Brenda González' , showPerson: false },
   { number: 41, selected: 1, name: 'Iris' , showPerson: false },
   { number: 42, selected: 1, name: 'Fernando' , showPerson: false },
   { number: 43, selected: 1, name: 'Bety Rodriguez' , showPerson: false },
   { number: 44, selected: 1, name: 'Adriana' , showPerson: false },
-  { number: 45, selected: 1, name: 'CESAR MORALES MARTINEZ' , showPerson: false },
+  { number: 45, selected: 1, name: 'Cesar Morales Martinez' , showPerson: false },
   { number: 46, selected: 0, name: '' , showPerson: false },
   { number: 47, selected: 1, name: 'Bety H.' , showPerson: false },
   { number: 48, selected: 1, name: 'Claudia Herrera' , showPerson: false },
   { number: 49, selected: 1, name: 'Edith' , showPerson: false },
   { number: 50, selected: 1, name: 'Maria del Carmen Lopez Uribe' , showPerson: false },
+  { number: 51, selected: 0, name: '' , showPerson: false },
+  { number: 52, selected: 0, name: '' , showPerson: false },
+  { number: 53, selected: 0, name: '' , showPerson: false },
+  { number: 54, selected: 0, name: '' , showPerson: false },
+  { number: 55, selected: 0, name: '' , showPerson: false },
+  { number: 56, selected: 0, name: '' , showPerson: false },
+  { number: 57, selected: 0, name: '' , showPerson: false },
+  { number: 58, selected: 0, name: '' , showPerson: false },
+  { number: 59, selected: 0, name: '' , showPerson: false },
+  { number: 60, selected: 0, name: '' , showPerson: false },
+
 ]);
