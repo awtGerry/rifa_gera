@@ -48,7 +48,7 @@ export const numbers = writable([
   { number: 42, selected: 1, name: 'Fernando' , showPerson: false },
   { number: 43, selected: 0, name: '' , showPerson: false },
   { number: 44, selected: 1, name: 'Adriana' , showPerson: false },
-  { number: 45, selected: 0, name: '' , showPerson: false },
+  { number: 45, selected: 1, name: 'CESAR MORALES MARTINEZ' , showPerson: false },
   { number: 46, selected: 0, name: '' , showPerson: false },
   { number: 47, selected: 1, name: 'Bety H.' , showPerson: false },
   { number: 48, selected: 0, name: '' , showPerson: false },
