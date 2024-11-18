@@ -52,6 +52,23 @@
 </script>
 
 <section class="mb-16 px-4 sm:px-8">
+
+  <!-- Progress bar -->
+  <h2 class="text-2xl font-bold text-lime-700 text-center mt-8">
+    Progreso
+  </h2>
+  {#if $numbers}
+    <div class="flex justify-center mt-4">
+      <div class="w-full bg-gray-200 rounded-full">
+        <div class="bg-lime-700 text-xs leading-none py-1 text-center text-white rounded-full"
+          style="width: {($numbers.filter(num => num.selected === 1).length / $numbers.length) * 100}%"
+        >
+          {($numbers.filter(num => num.selected === 1).length / $numbers.length) * 100}%
+        </div>
+      </div>
+    </div>
+  {/if}
+
   <h2 class="text-2xl font-bold text-lime-700 text-center mt-8">
     Numeros disponibles
   </h2>
@@ -70,6 +87,7 @@
       <div class="h-4 w-4 rounded-sm bg-blue-500"></div>
       <p class="text-slate-800 ml-1">Numero seleccionado</p>
     </div>
+  
   </div>
 
   <div class="flex justify-center space-x-4 mt-4 mb-4">
@@ -92,7 +110,7 @@
     </div>
   </div>
 
-  <div class="flex justify-center space-x-4 mt-4">
+  <div class="flex justify-center space-x-4 mt-4 flex-col items-center">
     <button
       class="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-700 transition duration-200"
       on:click={sendWhatsAppMessage}
@@ -105,5 +123,6 @@
       </svg>
       Mandar numeros por WhatsApp
     </button>
+    <p class="text-sm text-slate-800">*Favor de enviar el comprobante de pago.</p>
   </div>
 </section>
