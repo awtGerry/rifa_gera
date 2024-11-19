@@ -60,9 +60,9 @@ export const numbers = writable([
   { number: 54, selected: 0, name: '' , showPerson: false },
   { number: 55, selected: 0, name: '' , showPerson: false },
   { number: 56, selected: 1, name: 'Laura Barra' , showPerson: false },
-  { number: 57, selected: 0, name: '' , showPerson: false },
+  { number: 57, selected: 1, name: 'Lucia Reyes' , showPerson: false },
   { number: 58, selected: 0, name: '' , showPerson: false },
   { number: 59, selected: 0, name: '' , showPerson: false },
-  { number: 60, selected: 0, name: '' , showPerson: false },
+  { number: 60, selected: 1, name: 'Lucia Reyes' , showPerson: false },
 
 ]);
