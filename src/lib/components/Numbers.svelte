@@ -63,7 +63,7 @@
         <div class="bg-lime-700 text-xs leading-none py-1 text-center text-white rounded-full"
           style="width: {($numbers.filter(num => num.selected === 1).length / $numbers.length) * 100}%"
         >
-          {($numbers.filter(num => num.selected === 1).length / $numbers.length) * 100}%
+          {Math.round(($numbers.filter(num => num.selected === 1).length / $numbers.length) * 100)}%
         </div>
       </div>
     </div>

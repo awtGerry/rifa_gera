@@ -12,12 +12,23 @@
 
   <!-- Cost -->
   <h2 class="text-3xl text-lime-700 mt-2 font-semibold text-center">Costo $150 el boleto</h2>
-  <h4 class="text-lg text-lime-700 mt-4 text-center">Premio: Bateria T-Fal 21 piezas</h4>
 
-  <!-- Images -->
-  <div class="flex flex-wrap justify-center space-x-4 mt-4">
-    <img src="/bateria.jpg" alt="Bateria T-Fal 21 piezas" class="rounded-xl w-32 sm:w-40 md:w-72">
-    <img src="/bateria2.jpg" alt="Bateria T-Fal 21 piezas" class="rounded-xl w-32 sm:w-40 md:w-72 mt-4 sm:mt-0">
+  <h4 class="text-lg text-lime-700 mt-4 text-center">Primer lugar: Bateria T-Fal 21 piezas</h4>
+  <div class="flex items-center justify-center mt-2">
+    <!-- Images -->
+    <div class="flex flex-wrap justify-center space-x-4">
+      <img src="/bateria.jpg" alt="Bateria T-Fal 21 piezas" class="rounded-xl w-32 sm:w-40">
+      <img src="/bateria2.jpg" alt="Bateria T-Fal 21 piezas" class="rounded-xl w-32 sm:w-40 mt-4">
+    </div>
+  </div>
+
+  <h4 class="text-lg text-lime-700 mt-4 text-center">Segundo lugar: Tenis Nike AF1 1:1 (talla a elegir por el ganador)</h4>
+  <div class="flex items-center justify-center mt-2">
+    <!-- Images -->
+    <div class="flex flex-wrap justify-center space-x-4">
+      <img src="/nike.jpg" alt="Tenis Nike AF1 1:1" class="rounded-xl w-32 sm:w-40">
+      <img src="/nike2.jpg" alt="Tenis Nike AF1 1:1" class="rounded-xl w-32 sm:w-40 mt-4">
+    </div>
   </div>
 
   <!-- Info Text -->

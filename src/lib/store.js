@@ -1,5 +1,5 @@
 // Numbers store para la rifa
-// 1-60 números
+// 1-70 números
 
 import { writable } from 'svelte/store';
 
@@ -64,5 +64,25 @@ export const numbers = writable([
   { number: 58, selected: 0, name: '' , showPerson: false },
   { number: 59, selected: 0, name: '' , showPerson: false },
   { number: 60, selected: 1, name: 'Lucia Reyes' , showPerson: false },
-
+  { number: 60, selected: 0, name: '' , showPerson: false },
+  { number: 61, selected: 0, name: '' , showPerson: false },
+  { number: 62, selected: 0, name: '' , showPerson: false },
+  { number: 63, selected: 0, name: '' , showPerson: false },
+  { number: 64, selected: 0, name: '' , showPerson: false },
+  { number: 65, selected: 0, name: '' , showPerson: false },
+  { number: 66, selected: 0, name: '' , showPerson: false },
+  { number: 67, selected: 0, name: '' , showPerson: false },
+  { number: 68, selected: 0, name: '' , showPerson: false },
+  { number: 69, selected: 0, name: '' , showPerson: false },
+  { number: 70, selected: 0, name: '' , showPerson: false },
+  { number: 71, selected: 0, name: '' , showPerson: false },
+  { number: 72, selected: 0, name: '' , showPerson: false },
+  { number: 73, selected: 0, name: '' , showPerson: false },
+  { number: 74, selected: 0, name: '' , showPerson: false },
+  { number: 75, selected: 0, name: '' , showPerson: false },
+  { number: 76, selected: 0, name: '' , showPerson: false },
+  { number: 77, selected: 0, name: '' , showPerson: false },
+  { number: 78, selected: 0, name: '' , showPerson: false },
+  { number: 79, selected: 0, name: '' , showPerson: false },
+  { number: 80, selected: 0, name: '' , showPerson: false },
 ]);
