@@ -75,7 +75,7 @@ export const numbers = writable([
   { number: 69, selected: 1, name: 'Dannia Benitez' , showPerson: false },
   { number: 70, selected: 1, name: 'Ricardo Lopez' , showPerson: false },
   { number: 71, selected: 1, name: 'Feli' , showPerson: false },
-  { number: 72, selected: 0, name: '' , showPerson: false },
+  { number: 72, selected: 1, name: 'Feli' , showPerson: false },
   { number: 73, selected: 0, name: '' , showPerson: false },
   { number: 74, selected: 0, name: '' , showPerson: false },
   { number: 75, selected: 1, name: 'Dannia Benitez' , showPerson: false },
