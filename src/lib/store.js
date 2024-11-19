@@ -64,7 +64,6 @@ export const numbers = writable([
   { number: 58, selected: 0, name: '' , showPerson: false },
   { number: 59, selected: 0, name: '' , showPerson: false },
   { number: 60, selected: 1, name: 'Lucia Reyes' , showPerson: false },
-  { number: 60, selected: 0, name: '' , showPerson: false },
   { number: 61, selected: 0, name: '' , showPerson: false },
   { number: 62, selected: 0, name: '' , showPerson: false },
   { number: 63, selected: 0, name: '' , showPerson: false },
