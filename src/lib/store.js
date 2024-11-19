@@ -67,7 +67,7 @@ export const numbers = writable([
   { number: 61, selected: 0, name: '' , showPerson: false },
   { number: 62, selected: 0, name: '' , showPerson: false },
   { number: 63, selected: 0, name: '' , showPerson: false },
-  { number: 64, selected: 0, name: '' , showPerson: false },
+  { number: 64, selected: 1, name: 'Alicia Ponce Juarez' , showPerson: false },
   { number: 65, selected: 0, name: '' , showPerson: false },
   { number: 66, selected: 0, name: '' , showPerson: false },
   { number: 67, selected: 0, name: '' , showPerson: false },
