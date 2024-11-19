@@ -80,7 +80,7 @@ export const numbers = writable([
   { number: 74, selected: 0, name: '' , showPerson: false },
   { number: 75, selected: 1, name: 'Dannia Benitez' , showPerson: false },
   { number: 76, selected: 0, name: '' , showPerson: false },
-  { number: 77, selected: 0, name: '' , showPerson: false },
+  { number: 77, selected: 1, name: 'Estela Berenice Palacios Silva' , showPerson: false },
   { number: 78, selected: 0, name: '' , showPerson: false },
   { number: 79, selected: 1, name: 'Dannia Benitez' , showPerson: false },
   { number: 80, selected: 0, name: '' , showPerson: false },
