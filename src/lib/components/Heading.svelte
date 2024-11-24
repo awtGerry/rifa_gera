@@ -23,7 +23,7 @@
   </div>
   <!-- Winner -->
   <div class="flex items-center justify-center mt-2">
-    <p class="text-slate-500 mt-2 text-sm text-center">El ganador de la bateria es: <span class="text-red-500">21</span></p>
+    <p class="text-slate-500 mt-2 text-sm text-center">El ganador de la bateria es: <span class="text-red-500">79</span></p>
   </div>
 
 
